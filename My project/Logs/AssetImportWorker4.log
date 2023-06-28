@@ -1,0 +1,356 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.20f1 (577897200b8b) revision 5732503'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18362) 64bit Professional' Language: 'ko' Physical Memory: 16194 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/SGA/Desktop/Unity_3D/Unity3D/My project
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+51805
+Successfully changed project path to: C:/Users/SGA/Desktop/Unity_3D/Unity3D/My project
+C:/Users/SGA/Desktop/Unity_3D/Unity3D/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2592] Host "[IP] 192.168.0.202 [Port] 0 [Flags] 2 [Guid] 1929622397 [EditorId] 1929622397 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2592] Host "[IP] 192.168.0.202 [Port] 0 [Flags] 2 [Guid] 1929622397 [EditorId] 1929622397 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 67.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.20f1 (577897200b8b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/SGA/Desktop/Unity_3D/Unity3D/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003228 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 135 ms
+Refreshing native plugins compatible for Editor in 56.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.565 seconds
+Domain Reload Profiling:
+	ReloadAssembly (565ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (444ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (70ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (180ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (58ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002664 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Unity_3D\Unity3D\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Unity_3D\Unity3D\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 55.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.765 seconds
+Domain Reload Profiling:
+	ReloadAssembly (766ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (613ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (322ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (0.6 MB). Loaded Objects now: 3720.
+Memory consumption went from 138.8 MB to 138.2 MB.
+Total: 2.232100 ms (FindLiveObjects: 0.166700 ms CreateObjectMapping: 0.079100 ms MarkObjects: 1.837400 ms  DeleteObjects: 0.148200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9837.351441 seconds.
+  path: Assets/Terrain/Terrain_0_0_9c23b218-4d6c-40a6-a007-9be4af933e0d.asset
+  artifactKey: Guid(9ce341824d1032f43b4a96fefe87ed0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_0_0_9c23b218-4d6c-40a6-a007-9be4af933e0d.asset using Guid(9ce341824d1032f43b4a96fefe87ed0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+ -> (artifact id: '39a930cc11b2937ee95ab5762dc06495') in 0.051233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Terrain/Terrain_2_5_84814599-d2aa-4f71-a460-15ac2cf3219b.asset
+  artifactKey: Guid(c5c50cbcc8379fe4d9881306cc38fb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_2_5_84814599-d2aa-4f71-a460-15ac2cf3219b.asset using Guid(c5c50cbcc8379fe4d9881306cc38fb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+Tree prefab at index 2 is missing.
+ -> (artifact id: 'd939d9958b931dfd528ad90915eed40e') in 0.013091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Terrain/Terrain_3_5_90abb25c-18ef-4547-aeb1-ddbf7eae47f4.asset
+  artifactKey: Guid(1b0a194409bb3b64cbba53a83f8c57da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_3_5_90abb25c-18ef-4547-aeb1-ddbf7eae47f4.asset using Guid(1b0a194409bb3b64cbba53a83f8c57da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+Tree prefab at index 2 is missing.
+ -> (artifact id: 'a39ac470d025fc2b9061178bca44ae5e') in 0.009720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Terrain/Terrain_1_0_81b69a39-1e92-4acd-96a2-2b2c958b5170.asset
+  artifactKey: Guid(10d61cd6e31f5184d8cf6c1f16f31b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_1_0_81b69a39-1e92-4acd-96a2-2b2c958b5170.asset using Guid(10d61cd6e31f5184d8cf6c1f16f31b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+ -> (artifact id: '5fbb2d0c777b072915dc92d0c55a0c19') in 0.008942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Terrain/Terrain_1_3_3b9da0f8-2d8a-4662-885d-a49ba977c3f7.asset
+  artifactKey: Guid(8664db9b0dbe478429cb95a73e5ce786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_1_3_3b9da0f8-2d8a-4662-885d-a49ba977c3f7.asset using Guid(8664db9b0dbe478429cb95a73e5ce786) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+Tree prefab at index 2 is missing.
+ -> (artifact id: '0a12b3f2ed249546eb7f6cb513dd7145') in 0.004611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Terrain/Terrain_1_2_e5699c26-f61a-43a6-af2b-41cd3b89d335.asset
+  artifactKey: Guid(a8a3ee5955e226f4e8772332d79dca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_1_2_e5699c26-f61a-43a6-af2b-41cd3b89d335.asset using Guid(a8a3ee5955e226f4e8772332d79dca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+ -> (artifact id: 'cb01bda84c32b3abcc7ae26b98f0ae81') in 0.005375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Terrain/Terrain_3_4_efc60bd6-ebdc-4602-8a67-2ba4e5f08524.asset
+  artifactKey: Guid(f72cecbb524645a489443457fcf96c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_3_4_efc60bd6-ebdc-4602-8a67-2ba4e5f08524.asset using Guid(f72cecbb524645a489443457fcf96c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+Tree prefab at index 2 is missing.
+ -> (artifact id: 'e90ea7e8e2283c447aeb9b1221877935') in 0.010326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Terrain/Terrain_2_6_9aca8e85-4024-422d-a233-7730e50561ce.asset
+  artifactKey: Guid(bd2b79fb9ff5875488126e5c1e076f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_2_6_9aca8e85-4024-422d-a233-7730e50561ce.asset using Guid(bd2b79fb9ff5875488126e5c1e076f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+Tree prefab at index 2 is missing.
+ -> (artifact id: '77d8fc05b04fa7cf1f8b2f903b207b47') in 0.005627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Terrain/Terrain_2_4_5077a0c2-d00d-4668-b5c8-9f87be37182f.asset
+  artifactKey: Guid(63cf275fca4522148a6650e77bdf03af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_2_4_5077a0c2-d00d-4668-b5c8-9f87be37182f.asset using Guid(63cf275fca4522148a6650e77bdf03af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+Tree prefab at index 2 is missing.
+ -> (artifact id: '772d0ca7b0dc05ad1c8f2276d4d09df7') in 0.012361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Terrain/Terrain_0_2_e2c96e79-0dd8-47f6-9fb1-55aa0e5dbd32.asset
+  artifactKey: Guid(b5ac328783e6309488bf65a25c6a08c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_0_2_e2c96e79-0dd8-47f6-9fb1-55aa0e5dbd32.asset using Guid(b5ac328783e6309488bf65a25c6a08c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+ -> (artifact id: '52e7dc3ee02583034d9370c06b282b2a') in 0.004931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Terrain/Terrain_0_3_6ef3381c-1f7a-42db-893b-6e4eccdf030b.asset
+  artifactKey: Guid(b690366d40922ca4d894f2b25b14247c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_0_3_6ef3381c-1f7a-42db-893b-6e4eccdf030b.asset using Guid(b690366d40922ca4d894f2b25b14247c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+ -> (artifact id: '94653c7ba6b04dc0cd0d1eb0d2ada5a4') in 0.010697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.792538 seconds.
+  path: Assets/Terrain/Terrain_0_0_9c23b218-4d6c-40a6-a007-9be4af933e0d.asset
+  artifactKey: Guid(9ce341824d1032f43b4a96fefe87ed0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_0_0_9c23b218-4d6c-40a6-a007-9be4af933e0d.asset using Guid(9ce341824d1032f43b4a96fefe87ed0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+ -> (artifact id: '178a1420688b0d05e88cbe229c381588') in 0.012117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.188675 seconds.
+  path: Assets/GrassFlowers/Post-Processing For GrassFlowers.asset
+  artifactKey: Guid(150fbd13cfcddb34ebc82b228a769165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Post-Processing For GrassFlowers.asset using Guid(150fbd13cfcddb34ebc82b228a769165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c964b2f79ca6216133463116856ada') in 0.008882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.231522 seconds.
+  path: Assets/GrassFlowers/Textures
+  artifactKey: Guid(46c1725cb7280074493bd8d9d2ab7468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures using Guid(46c1725cb7280074493bd8d9d2ab7468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6733954288ac0aba7e0b670a53b3688') in 0.007557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.453293 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers
+  artifactKey: Guid(6c0cbfdcc9b9ae64f9ddd77c2003e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers using Guid(6c0cbfdcc9b9ae64f9ddd77c2003e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf78e62ea3b6a419fe1da6b215c7ed4') in 0.007052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071459 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grass01.tga
+  artifactKey: Guid(91a1945982e98be4d9fe3e3d12fdebd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grass01.tga using Guid(91a1945982e98be4d9fe3e3d12fdebd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152c05b6df85f5b14f9748bbeb9bfc96') in 0.038003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower10.tga
+  artifactKey: Guid(dcefc591c195a9f468e9157baa03eb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower10.tga using Guid(dcefc591c195a9f468e9157baa03eb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5dd78061854d58945190d9c88a9d37') in 0.009867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower07.tga
+  artifactKey: Guid(5afd653e4d79b7a4c9523dd543c0bead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower07.tga using Guid(5afd653e4d79b7a4c9523dd543c0bead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c548a261b7a315bdaf1cd32414ffac01') in 0.012064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower06.tga
+  artifactKey: Guid(b3d0250e4b7a1ac4abe98a38d34d2048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower06.tga using Guid(b3d0250e4b7a1ac4abe98a38d34d2048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2d2bd8491a49f0e547ccb6a7684967') in 0.037775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower02.tga
+  artifactKey: Guid(b0601839c4520064bb61d58d088810bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower02.tga using Guid(b0601839c4520064bb61d58d088810bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75c60cdd998db99681d20ea00a99ea1') in 0.008786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 153.300049 seconds.
+  path: Assets/Terrain/Terrain_3_6_5474886e-8e16-406c-8ef2-52d2e401dcbe.asset
+  artifactKey: Guid(f6502a24437fccc4e9dabd61dd5554f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_3_6_5474886e-8e16-406c-8ef2-52d2e401dcbe.asset using Guid(f6502a24437fccc4e9dabd61dd5554f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+Tree prefab at index 2 is missing.
+ -> (artifact id: '96aa65e132a9c06fd98d94cba319e6f0') in 0.030835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Terrain/Terrain_4_6_2273f7eb-3aa7-4625-b405-e33b4abbe354.asset
+  artifactKey: Guid(ee578b2b2f5ec734ebf60cc1976e3ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_4_6_2273f7eb-3aa7-4625-b405-e33b4abbe354.asset using Guid(ee578b2b2f5ec734ebf60cc1976e3ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+ -> (artifact id: 'f71102906210e32c5d3cf60d90de6014') in 0.010289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Terrain/Terrain_4_7_387c047b-1ef0-476e-b20d-6bec843b744a.asset
+  artifactKey: Guid(155adb9f95e16ce489a42ddbdf92470e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_4_7_387c047b-1ef0-476e-b20d-6bec843b744a.asset using Guid(155adb9f95e16ce489a42ddbdf92470e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+Tree prefab at index 2 is missing.
+ -> (artifact id: '5806cbca672dba46535dd50f1ddfeea6') in 0.010219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Terrain/Terrain_4_0_46099fed-5ce5-4120-a325-38c6ac70d747.asset
+  artifactKey: Guid(dc0205187c39c644fac5ba9e0158bf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_4_0_46099fed-5ce5-4120-a325-38c6ac70d747.asset using Guid(dc0205187c39c644fac5ba9e0158bf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6009e854c52e486b3b63b722cd606e19') in 0.009906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Terrain/Terrain_4_1_36711f0c-6df6-46f9-bdbb-5c41ae529ada.asset
+  artifactKey: Guid(21acfc179723a4640aad84a251ba90f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_4_1_36711f0c-6df6-46f9-bdbb-5c41ae529ada.asset using Guid(21acfc179723a4640aad84a251ba90f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+ -> (artifact id: '39b4e88de72c5f7e06f383a365f17be5') in 0.009890 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
