@@ -15,7 +15,7 @@ C:/Users/SGA/Desktop/Unity_3D/Unity3D/My project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50131
+50408
 Successfully changed project path to: C:/Users/SGA/Desktop/Unity_3D/Unity3D/My project
 C:/Users/SGA/Desktop/Unity_3D/Unity3D/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/SGA/Desktop/Unity_3D/Unity3D/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4632] Host "[IP] 192.168.0.202 [Port] 0 [Flags] 2 [Guid] 2279677497 [EditorId] 2279677497 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7916] Host "[IP] 192.168.0.202 [Port] 0 [Flags] 2 [Guid] 3677280767 [EditorId] 3677280767 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4632] Host "[IP] 192.168.0.202 [Port] 0 [Flags] 2 [Guid] 2279677497 [EditorId] 2279677497 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7916] Host "[IP] 192.168.0.202 [Port] 0 [Flags] 2 [Guid] 3677280767 [EditorId] 3677280767 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 56.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 56.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.20f1 (577897200b8b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -67,93 +67,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002242 seconds.
+Registered in 0.002153 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 121 ms
-Refreshing native plugins compatible for Editor in 56.79 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 119 ms
+Refreshing native plugins compatible for Editor in 57.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.547 seconds
+- Completed reload, in  0.543 seconds
 Domain Reload Profiling:
-	ReloadAssembly (547ms)
+	ReloadAssembly (544ms)
 		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (434ms)
+		EndReloadAssembly (433ms)
 			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (70ms)
+			SetupTypeCache (68ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (313ms)
+			SetupLoadedEditorAssemblies (315ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (167ms)
+				InitializePlatformSupportModulesInManaged (165ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (57ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (60ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				ProcessInitializeOnLoadAttributes (58ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002308 seconds.
+Registered in 0.002874 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Unity_3D\Unity3D\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Unity_3D\Unity3D\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 56.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 60.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.781 seconds
+- Completed reload, in  0.757 seconds
 Domain Reload Profiling:
-	ReloadAssembly (782ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (758ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (620ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (615ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
+			SetupTypeCache (174ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (328ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (324ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 45 unused Assets / (0.6 MB). Loaded Objects now: 3729.
-Memory consumption went from 140.6 MB to 140.0 MB.
-Total: 2.188100 ms (FindLiveObjects: 0.184600 ms CreateObjectMapping: 0.082300 ms MarkObjects: 1.742200 ms  DeleteObjects: 0.178200 ms)
+Memory consumption went from 140.8 MB to 140.2 MB.
+Total: 2.178600 ms (FindLiveObjects: 0.186200 ms CreateObjectMapping: 0.083500 ms MarkObjects: 1.750700 ms  DeleteObjects: 0.157400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,29 +167,91 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1764.183330 seconds.
-  path: Assets/Zombie
-  artifactKey: Guid(c7a86cfda1258004087bc56709ae1e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie using Guid(c7a86cfda1258004087bc56709ae1e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ca56ae7ced95db77e5894ec5b40f4f') in 0.009973 seconds 
+  Time since last request: 2183.704665 seconds.
+  path: Assets/RoofTop_SafeHouse/Barrels/B1/smoke.png
+  artifactKey: Guid(df1c6f13f71345640bbd030d2327165b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoofTop_SafeHouse/Barrels/B1/smoke.png using Guid(df1c6f13f71345640bbd030d2327165b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013a602601bc097a89f45f52f8bfa420') in 0.053815 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Zombie/Prefabs/Zombie3.prefab
-  artifactKey: Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Prefabs/Zombie3.prefab using Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6de7a764a9e2b71c489f7b2c52a17b4') in 0.032968 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/RoofTop_SafeHouse/Barrels/B1/Barrel_SPEC.png
+  artifactKey: Guid(8fcaad8093b0e2446a357d24258e2694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoofTop_SafeHouse/Barrels/B1/Barrel_SPEC.png using Guid(8fcaad8093b0e2446a357d24258e2694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947e51fbc2e46b637fcb4f17bbc68510') in 0.009688 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Zombie/Prefabs
-  artifactKey: Guid(62092c25312055548a5b415184883759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Prefabs using Guid(62092c25312055548a5b415184883759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6799e67b6458fd8802e0645075f9819') in 0.005876 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/RoofTop_SafeHouse/Barrels/B1/Burnt_wood_DISP.png
+  artifactKey: Guid(3bfd2a7c9faaeac4397db1da7a0a7936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoofTop_SafeHouse/Barrels/B1/Burnt_wood_DISP.png using Guid(3bfd2a7c9faaeac4397db1da7a0a7936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86532ccdd917ebfa79cf5adb88171a6') in 0.009658 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.221565 seconds.
-  path: Assets/Zombie/Textures/zombie_emission.tga
-  artifactKey: Guid(d681134af7b3e50479d8d90effa0e1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Textures/zombie_emission.tga using Guid(d681134af7b3e50479d8d90effa0e1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25e11b71161a9495bda4d93bda0443f') in 0.090064 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.000016 seconds.
+  path: Assets/RoofTop_SafeHouse/Barrels/B1
+  artifactKey: Guid(65fdf93c3a4642948a19a4ebe9cfbf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoofTop_SafeHouse/Barrels/B1 using Guid(65fdf93c3a4642948a19a4ebe9cfbf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ccbc000d8c568f21856787ce7c9e53') in 0.007397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RoofTop_SafeHouse/Barrels/B1/Burnt_wood_NORM.png
+  artifactKey: Guid(60f7769a3d36ff142baeebc7e9a2ac22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoofTop_SafeHouse/Barrels/B1/Burnt_wood_NORM.png using Guid(60f7769a3d36ff142baeebc7e9a2ac22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d0e71b8a778b514b9ab52f283c3195') in 0.027128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.530376 seconds.
+  path: Assets/RoofTop_SafeHouse/Prefab/Barrel 1.prefab
+  artifactKey: Guid(df80a37374d2b9a469be66792558ca94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoofTop_SafeHouse/Prefab/Barrel 1.prefab using Guid(df80a37374d2b9a469be66792558ca94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a38a42d26d44d034a96910cf463fb8') in 0.116370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RoofTop_SafeHouse/Prefab/Can1.prefab
+  artifactKey: Guid(71c82129f54d41e45aace57ab7d3990a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoofTop_SafeHouse/Prefab/Can1.prefab using Guid(71c82129f54d41e45aace57ab7d3990a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab4c2f8552509309c028060b426cf2b') in 0.136900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RoofTop_SafeHouse/Prefab/Corr 1.prefab
+  artifactKey: Guid(f5f6f56ae37192f48a92bd3f2ab37664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoofTop_SafeHouse/Prefab/Corr 1.prefab using Guid(f5f6f56ae37192f48a92bd3f2ab37664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23528eb5d7ced0b28352a2f994b5e08c') in 0.018078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RoofTop_SafeHouse/Prefab/Can_G.prefab
+  artifactKey: Guid(328be37460c5e814292c2b1ca1df59ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoofTop_SafeHouse/Prefab/Can_G.prefab using Guid(328be37460c5e814292c2b1ca1df59ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760d7cc17dd7bc61c22e8175f3f5a850') in 0.018148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RoofTop_SafeHouse/Prefab/Corr.prefab
+  artifactKey: Guid(ed8fda6294190eb4ca34880523eeb596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoofTop_SafeHouse/Prefab/Corr.prefab using Guid(ed8fda6294190eb4ca34880523eeb596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f005d03ff608891526ae14cae06df3e') in 0.017140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RoofTop_SafeHouse/Prefab/Empty.prefab
+  artifactKey: Guid(3428d444f051d67448896698ed933cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoofTop_SafeHouse/Prefab/Empty.prefab using Guid(3428d444f051d67448896698ed933cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e3d79c2a7e134ed9f2702d1303c6e9') in 0.014519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RoofTop_SafeHouse/Prefab/Barrel_Fire.prefab
+  artifactKey: Guid(b54b71c0e0186a84fb605b421730b4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoofTop_SafeHouse/Prefab/Barrel_Fire.prefab using Guid(b54b71c0e0186a84fb605b421730b4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa7066d9d0946ee8dcfa1d38f7e3657') in 0.193044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RoofTop_SafeHouse/Prefab/Fence.prefab
+  artifactKey: Guid(5d934f07f64532243a3fb123c1b42784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoofTop_SafeHouse/Prefab/Fence.prefab using Guid(5d934f07f64532243a3fb123c1b42784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1712ba898dc42b2a3e6c4fd544a6ae') in 0.164011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.313885 seconds.
+  path: Assets/RoofTop_SafeHouse/Prefab/Pallete.prefab
+  artifactKey: Guid(8e9344642aecfb7498350f6bf08839f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoofTop_SafeHouse/Prefab/Pallete.prefab using Guid(8e9344642aecfb7498350f6bf08839f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0388abf90d169511cdd2085f5ced80a7') in 0.014105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/RoofTop_SafeHouse/Prefab/sofa.prefab
+  artifactKey: Guid(24c4f06e23804c7488965c0098a4b302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoofTop_SafeHouse/Prefab/sofa.prefab using Guid(24c4f06e23804c7488965c0098a4b302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17860b18f14636ef5eb8b6d97055deef') in 0.169784 seconds 
